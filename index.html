@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chrigusound · Musik für Hochzeiten, Geburtstage und Firmenfeste</title>
+  <meta name="description" content="Live-Gesang und professionelle Arrangements für Hochzeiten, Geburtstage und Firmenfeste in der Schweiz. Persönlich, flexibel, mit Herz. Jetzt unverbindlich anfragen.">
+  <meta property="og:title" content="chrigusound · Musik, die euren Moment trägt">
+  <meta property="og:description" content="Live-Gesang und professionelle Arrangements für Hochzeiten, Geburtstage und Firmenfeste. Persönlich, flexibel, mit Herz.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chrigusound.ch">
+  <meta property="og:locale" content="de_CH">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%23e39a4a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top">chrigu<span>sound</span></a>
+    <nav class="nav__links" aria-label="Hauptnavigation">
+      <a href="#leistungen">Leistungen</a>
+      <a href="#pakete">Pakete</a>
+      <a href="#ueber-mich">Über mich</a>
+      <a href="#technik">Technik</a>
+    </nav>
+    <a class="btn btn--primary nav__cta" href="#kontakt">Jetzt anfragen</a>
+    <button class="nav__burger" id="burger" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#pakete">Pakete</a>
+    <a href="#ueber-mich">Über mich</a>
+    <a href="#technik">Technik</a>
+    <a class="btn btn--primary" href="#kontakt">Jetzt anfragen</a>
+  </div>
+
+  <main id="top">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <canvas id="soundfield" aria-hidden="true"></canvas>
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <h1 class="hero__title">
+            <span class="line"><span class="line__inner">Musik, die euren</span></span>
+            <span class="line"><span class="line__inner">Moment <em>trägt.</em></span></span>
+          </h1>
+          <p class="hero__sub">Live-Gesang und professionelle Arrangements für Hochzeiten, Geburtstage und Firmenfeste. Persönlich, flexibel, mit Herz.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#kontakt">Jetzt anfragen</a>
+            <a class="btn btn--ghost" href="#leistungen">Leistungen entdecken</a>
+          </div>
+        </div>
+        <figure class="hero__photo">
+          <img src="assets/hero.webp" alt="Christian Schneider singt mit Gitarre und Mikrofon unter einem grossen Baum" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== Leistungen (Bento) ===== -->
+    <section class="section" id="leistungen">
+      <div class="section__head reveal">
+        <h2>Für eure besonderen Anlässe</h2>
+        <p>Jede Feier ist einzigartig. Genauso individuell ist die musikalische Begleitung.</p>
+      </div>
+      <div class="bento">
+        <article class="bento__cell bento__cell--wide bento__cell--wedding reveal">
+          <img class="bento__img" src="assets/event-tent.webp" alt="Festlich gedeckte Tafeln mit Blumenschmuck im Festzelt" loading="lazy">
+          <div class="bento__scrim"></div>
+          <div class="bento__content">
+            <h3>Hochzeiten</h3>
+            <p>Vom Ja-Wort bis zur vollen Tanzfläche: Ich begleite euren Tag mit emotionalem Live-Gesang und einem Repertoire, das zu eurer Geschichte passt.</p>
+            <ul class="ticks">
+              <li>Live-Gesang für Trauung, Apéro und Abendfeier</li>
+              <li>Von der romantischen Ballade bis zur Partymusik</li>
+              <li>Persönliches Vorgespräch zur Planung</li>
+            </ul>
+          </div>
+        </article>
+        <article class="bento__cell bento__cell--birthday reveal">
+          <img class="bento__img" src="assets/event-stage.webp" alt="Bühne mit Keyboard und Mikrofonen im Festzelt" loading="lazy">
+          <div class="bento__scrim"></div>
+          <div class="bento__content">
+            <h3>Geburtstage</h3>
+            <p>Ob 30, 50 oder 70: Die richtige Musik macht aus einer Feier eine Erinnerung.</p>
+            <ul class="ticks">
+              <li>Stimmungsvoll im Hintergrund oder tanzbar am Abend</li>
+              <li>Spontan angepasst an Gäste und Stimmung</li>
+            </ul>
+          </div>
+        </article>
+        <article class="bento__cell bento__cell--corporate reveal">
+          <div class="bento__content">
+            <h3>Firmenfeste</h3>
+            <p>Der stilvolle Rahmen für Weihnachtsfeier, Jubiläum oder Sommerfest.</p>
+            <ul class="ticks">
+              <li>Angenehme Lautstärke, Gespräche bleiben möglich</li>
+              <li>Energie für den Abend, seriös im Auftreten</li>
+              <li>Auf Wunsch mit Moderation</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Warum (Sticky Split) ===== -->
+    <section class="section why">
+      <div class="why__grid">
+        <div class="why__sticky">
+          <h2>Warum chrigusound?</h2>
+          <p>Es gibt viele Musiker. Am Ende geht es nicht nur um Musik, sondern um Vertrauen.</p>
+          <a class="btn btn--primary" href="#kontakt">Jetzt anfragen</a>
+        </div>
+        <div class="why__list">
+          <div class="why__item reveal">
+            <h3>Mit Herz statt Routine</h3>
+            <p>Kein Auftritt ist nur ein Auftrag. Ich gestalte euren Anlass individuell und mit echter Freude, nicht zum hundertsten Mal nach demselben Programm.</p>
+          </div>
+          <div class="why__item reveal">
+            <h3>Live, flexibel, authentisch</h3>
+            <p>Als Solokünstler mit professionellen Arrangements reagiere ich spontan auf Stimmung und Gäste. Romantisch, dezent oder energiegeladen, genau wie es der Moment verlangt.</p>
+          </div>
+          <div class="why__item reveal">
+            <h3>Persönlich und zuverlässig</h3>
+            <p>Ich nehme mir Zeit für ein Gespräch im Vorfeld, plane sorgfältig und bin verlässlich an eurer Seite. Die Chemie muss stimmen.</p>
+          </div>
+          <div class="why__item reveal">
+            <h3>Erfahrung und Gelassenheit</h3>
+            <p>Lebens- und Musikerfahrung bringen Ruhe, Professionalität und das richtige Gespür für Atmosphäre mit. Gerade bei Hochzeiten ein unschätzbarer Vorteil.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Pakete ===== -->
+    <section class="section" id="pakete">
+      <div class="section__head reveal">
+        <h2>Klare Pakete als Orientierung</h2>
+        <p>Alle Pakete werden individuell auf euer Fest angepasst.</p>
+      </div>
+      <div class="packages">
+        <article class="package package--featured reveal">
+          <p class="package__tag">Hochzeit</p>
+          <h3>Celebration</h3>
+          <p class="package__lead">Für den ganzen besonderen Tag.</p>
+          <ul class="ticks">
+            <li>Musikalische Begleitung von der Trauung bis in den Abend</li>
+            <li>Hintergrundmusik während Apéro und Dinner</li>
+            <li>Live-Gesang und Party-Set am Abend</li>
+            <li>Komplette Ton- und Technikbetreuung</li>
+          </ul>
+          <p class="package__note">Von der ersten Träne bis zur vollen Tanzfläche.</p>
+          <a class="btn btn--primary" href="#kontakt">Jetzt anfragen</a>
+        </article>
+        <div class="packages__col">
+          <article class="package reveal">
+            <p class="package__tag">Hochzeit</p>
+            <h3>Emotional</h3>
+            <p class="package__lead">Ideal für Trauung oder Apéro.</p>
+            <ul class="ticks">
+              <li>Persönliches Vorgespräch</li>
+              <li>Tonanlage für die Zeremonie</li>
+              <li>Dezente, stilvolle Begleitung</li>
+            </ul>
+          </article>
+          <article class="package reveal">
+            <p class="package__tag">Geburtstage und Firmenfeste</p>
+            <h3>Individuell</h3>
+            <p class="package__lead">Flexibel nach Anlass gestaltet.</p>
+            <ul class="ticks">
+              <li>Live-Gesang und Partymusik nach Wunsch</li>
+              <li>Anpassung an Gäste und Atmosphäre</li>
+              <li>Professionelle Technik inklusive</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Über mich ===== -->
+    <section class="section about" id="ueber-mich">
+      <div class="about__grid">
+        <div class="about__text reveal">
+          <h2>Hinter chrigusound steht Christian Schneider.</h2>
+          <p>Musik begleitet mich mein ganzes Leben, vom ersten kleinen Casio-Keyboard bis zur professionellen Bühne. Nach fast 40 Berufsjahren widme ich mich seit meiner Frühpension ganz dem, was ich liebe: Musik und Technik.</p>
+          <p>Ohne Zeitdruck. Ohne Massenabfertigung. Dafür mit echter Hingabe und dem Wunsch, Teil von Erinnerungen zu sein, die bleiben.</p>
+          <blockquote class="about__quote">
+            <p>«Ich behandle jede Feier so, als wäre es meine eigene.»</p>
+            <footer>Christian Schneider, chrigusound</footer>
+          </blockquote>
+        </div>
+        <figure class="about__portrait reveal">
+          <img src="assets/portrait.webp" alt="Christian Schneider mit Keyboard vor einem Mammutbaum" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== Technik ===== -->
+    <section class="section tech" id="technik">
+      <div class="tech__grid">
+        <div class="tech__block reveal">
+          <h2>Tontechnik inklusive</h2>
+          <p>Damit ihr euch um nichts kümmern müsst, bringe ich die komplette Technik gleich mit.</p>
+          <ul class="ticks">
+            <li>Professionelle Tonanlage, passend zu Raum und Gästezahl</li>
+            <li>Mikrofone für Reden und Moderation</li>
+            <li>Auf- und Abbau übernehme ich</li>
+          </ul>
+        </div>
+        <div class="tech__block reveal">
+          <h2>PC-Service</h2>
+          <p>Meine zweite Leidenschaft: Ich richte Computer ein und löse Probleme, bevor sie nerven.</p>
+          <ul class="ticks">
+            <li>Windows und Linux einrichten und konfigurieren</li>
+            <li>Fehlerdiagnose und Systemoptimierung</li>
+            <li>Persönliche Beratung ohne Fachchinesisch</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Kontakt ===== -->
+    <section class="section contact" id="kontakt">
+      <div class="contact__inner">
+        <div class="contact__intro reveal">
+          <h2>Erzähl mir von eurem Fest.</h2>
+          <p>Ich beantworte jede Anfrage persönlich und unverbindlich. Gemeinsam finden wir die passende musikalische Begleitung.</p>
+        </div>
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="f-name">Name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+            <p class="field__error" hidden>Bitte gib deinen Namen an.</p>
+          </div>
+          <div class="field">
+            <label for="f-email">E-Mail</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+            <p class="field__error" hidden>Bitte gib eine gültige E-Mail-Adresse an.</p>
+          </div>
+          <div class="field field--half">
+            <label for="f-anlass">Anlass</label>
+            <select id="f-anlass" name="anlass">
+              <option>Hochzeit</option>
+              <option>Geburtstag</option>
+              <option>Firmenfest</option>
+              <option>PC-Service</option>
+              <option>Anderes</option>
+            </select>
+          </div>
+          <div class="field field--half">
+            <label for="f-datum">Datum <span class="field__optional">(optional)</span></label>
+            <input id="f-datum" name="datum" type="date">
+          </div>
+          <div class="field">
+            <label for="f-msg">Nachricht</label>
+            <textarea id="f-msg" name="nachricht" rows="5" required></textarea>
+            <p class="field__error" hidden>Bitte schreib ein paar Worte zu eurem Anlass.</p>
+          </div>
+          <button class="btn btn--primary contact__submit" type="submit">Anfrage senden</button>
+          <p class="contact__sent" id="sentNote" hidden>Danke! Dein E-Mail-Programm öffnet sich mit der vorbereiteten Anfrage.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <a class="footer__brand" href="#top">chrigu<span>sound</span></a>
+    <nav class="footer__links" aria-label="Fussnavigation">
+      <a href="#leistungen">Leistungen</a>
+      <a href="#pakete">Pakete</a>
+      <a href="#ueber-mich">Über mich</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <div class="footer__legal">
+      <a href="https://chrigusound.ch/impressum" rel="noopener">Impressum</a>
+      <a href="https://chrigusound.ch/datenschutz" rel="noopener">Datenschutz</a>
+      <span>© 2026 chrigusound</span>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+  </script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
